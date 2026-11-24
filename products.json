@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "แชมพู สดชื่น",
+    "mood": "fresh",
+    "type": "rollon",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูกลิ่นสดชื่น ให้ความรู้สึกโปร่งเบา พร้อมเริ่มวันใหม่ ขนาดพกพาง่าย"
+  },
+  {
+    "id": 2,
+    "name": "แชมพู หวานละมุน",
+    "mood": "sweet",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูกลิ่นหวานละมุน อ่อนโยน ให้ความรู้สึกอบอุ่น ขนาดใหญ่ใช้คุ้มยาว"
+  },
+  {
+    "id": 3,
+    "name": "แชมพู มั่นใจ",
+    "mood": "confident",
+    "type": "rollon",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/sweet.jpg",
+    "description": "แชมพูกลิ่นมั่นใจ ดึงดูดทุกสายตา เหมาะกับทุกโอกาสสำคัญ ขนาดพกพาง่าย"
+  }
+]

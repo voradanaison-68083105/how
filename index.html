@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>moonnie — แชมพูกลิ่นตามอารมณ์ของวัน</title>
+  <meta name="description" content="moonnie เปลี่ยนการสระผมธรรมดาให้เป็นช่วงเวลาฮีลใจ เลือกความรู้สึกได้ในแบบคุณ: สดชื่น หวานละมุน และมั่นใจ">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">moonnie</a>
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a href="index.html" aria-current="page">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero--full">
+      <div class="container hero__inner">
+        <h1>เปลี่ยนการสระผมธรรมดา ให้เป็นช่วงเวลาฮีลใจที่เลือกความรู้สึกได้ในแบบคุณ</h1>
+        <p class="lead">เลือกความรู้สึกที่ใช่ ในทุกครั้งที่สระผมกับ moonnie</p>
+        <a class="btn" href="product.html">ดูสินค้าทั้งหมด</a>
+      </div>
+    </section>
+
+    <!-- Mood cards -->
+    <section class="section section--white" id="moods">
+      <div class="container">
+        <div class="section-head">
+          <h2>วันนี้รู้สึกอย่างไร</h2>
+          <hr class="divider">
+          <p>เลือกอารมณ์ที่ใช่ แล้วดูสินค้าที่เข้ากับวันของคุณ</p>
+        </div>
+
+        <div class="mood-grid">
+          <a class="mood-card mood mood--fresh" href="product.html?mood=fresh">
+            <svg class="mood-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3c3 4 6 7 6 10a6 6 0 0 1-12 0c0-3 3-6 6-10z"/>
+            </svg>
+            <h3>สดชื่น</h3>
+            <span class="mood-card__sub">Fresh</span>
+            <span class="mood-underline"></span>
+            <p>ปลุกพลังความสดใสให้ตื่นตัวในทุกเช้า ด้วยกลิ่นหอมสะอาดโปร่งเบาสบาย เหมือนได้พักผ่อนท่ามกลางธรรมชาติ</p>
+          </a>
+
+          <a class="mood-card mood mood--sweet" href="product.html?mood=sweet">
+            <svg class="mood-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>
+            </svg>
+            <h3>หวานละมุน</h3>
+            <span class="mood-card__sub">Sweet</span>
+            <span class="mood-underline"></span>
+            <p>เติมความอ่อนโยนและอบอุ่นหัวใจ ด้วยกลิ่นหอมหวานแผ่วเบาที่ชวนให้นึกถึงอ้อมกอดแสนสบายในวันพักผ่อน</p>
+          </a>
+
+          <a class="mood-card mood mood--confident" href="product.html?mood=confident">
+            <svg class="mood-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l2.2 6.8L21 12l-6.8 2.2L12 21l-2.2-6.8L3 12l6.8-2.2z"/>
+            </svg>
+            <h3>มั่นใจ</h3>
+            <span class="mood-card__sub">Confident</span>
+            <span class="mood-underline"></span>
+            <p>เสริมเสน่ห์ความนิ่งสงบและดูดีมีระดับ ให้คุณรู้สึกสะอาดหมดจดและพร้อมรับมือกับทุกสายตาในวันสำคัญ</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">moonnie</span>
+      <p>&copy; 2026 moonnie. สงวนลิขสิทธิ์</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
